@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoolangEmbedded", "BoolangEmbedded\BoolangEmbedded.csproj", "{98726211-4DE6-4477-B927-897DD61B9936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{1EA8E436-EB9B-4256-A710-23999FEEE6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combined", "Combined\Combined.csproj", "{30BED252-FC5C-4664-AA4B-03B6FD5BE9D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98726211-4DE6-4477-B927-897DD61B9936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98726211-4DE6-4477-B927-897DD61B9936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98726211-4DE6-4477-B927-897DD61B9936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98726211-4DE6-4477-B927-897DD61B9936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA8E436-EB9B-4256-A710-23999FEEE6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA8E436-EB9B-4256-A710-23999FEEE6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA8E436-EB9B-4256-A710-23999FEEE6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA8E436-EB9B-4256-A710-23999FEEE6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BED252-FC5C-4664-AA4B-03B6FD5BE9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BED252-FC5C-4664-AA4B-03B6FD5BE9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BED252-FC5C-4664-AA4B-03B6FD5BE9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BED252-FC5C-4664-AA4B-03B6FD5BE9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6F8756E-7D9E-40B5-8131-C8F19F92CCD4}
+	EndGlobalSection
+EndGlobal
