@@ -67,15 +67,8 @@ public static def Entry(emb as object) as void:
         embBoo.Compile(source, new Program());
     }
 
-    public static void RunInAppDomain(string source)
+    public static void RunInAppDomain(string source, AppDomain ad)
     {
-        /*
-        AppDomainSetup setupInfo = new AppDomainSetup();
-        setupInfo.ApplicationBase = Environment.CurrentDirectory;
-        Evidence adevidence = AppDomain.CurrentDomain.Evidence;
-        */
-
-        AppDomain ad = AppDomain.CreateDomain("Test");
         EmbeddedBoo remoteEmbBoo = (EmbeddedBoo)ad.CreateInstanceAndUnwrap(
             typeof(EmbeddedBoo).Assembly.FullName,
             "EmbeddedBoo"
